@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92100AB1E2DFFBE00EBA6E9 /* AModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C92100AA1E2DFFBE00EBA6E9 /* AModel.m */; };
+		C92100AE1E2DFFC900EBA6E9 /* BModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C92100AD1E2DFFC900EBA6E9 /* BModel.m */; };
 		C9F67C031E2659F30076558C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F67C021E2659F30076558C /* main.m */; };
 		C9F67C061E2659F30076558C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F67C051E2659F30076558C /* AppDelegate.m */; };
 		C9F67C091E2659F30076558C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F67C081E2659F30076558C /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C92100A91E2DFFBE00EBA6E9 /* AModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AModel.h; sourceTree = "<group>"; };
+		C92100AA1E2DFFBE00EBA6E9 /* AModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AModel.m; sourceTree = "<group>"; };
+		C92100AC1E2DFFC900EBA6E9 /* BModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BModel.h; sourceTree = "<group>"; };
+		C92100AD1E2DFFC900EBA6E9 /* BModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BModel.m; sourceTree = "<group>"; };
 		C9F67BFE1E2659F30076558C /* lyxTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lyxTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F67C021E2659F30076558C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F67C041E2659F30076558C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92100A81E2DFFB400EBA6E9 /* ToolModel */ = {
+			isa = PBXGroup;
+			children = (
+				C92100A91E2DFFBE00EBA6E9 /* AModel.h */,
+				C92100AA1E2DFFBE00EBA6E9 /* AModel.m */,
+				C92100AC1E2DFFC900EBA6E9 /* BModel.h */,
+				C92100AD1E2DFFC900EBA6E9 /* BModel.m */,
+			);
+			path = ToolModel;
+			sourceTree = "<group>";
+		};
 		C9F67BF51E2659F30076558C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,7 @@
 		C9F67C001E2659F30076558C /* lyxTool */ = {
 			isa = PBXGroup;
 			children = (
+				C92100A81E2DFFB400EBA6E9 /* ToolModel */,
 				C9F67C041E2659F30076558C /* AppDelegate.h */,
 				C9F67C051E2659F30076558C /* AppDelegate.m */,
 				C9F67C071E2659F30076558C /* ViewController.h */,
@@ -277,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F67C091E2659F30076558C /* ViewController.m in Sources */,
+				C92100AE1E2DFFC900EBA6E9 /* BModel.m in Sources */,
+				C92100AB1E2DFFBE00EBA6E9 /* AModel.m in Sources */,
 				C9F67C061E2659F30076558C /* AppDelegate.m in Sources */,
 				C9F67C031E2659F30076558C /* main.m in Sources */,
 			);
@@ -516,6 +536,7 @@
 				C9F67C2D1E2659F30076558C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F67C2E1E2659F30076558C /* Build configuration list for PBXNativeTarget "lyxToolTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +545,7 @@
 				C9F67C301E2659F30076558C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F67C311E2659F30076558C /* Build configuration list for PBXNativeTarget "lyxToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +554,7 @@
 				C9F67C331E2659F30076558C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
