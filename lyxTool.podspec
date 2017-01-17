@@ -13,6 +13,6 @@ s.source           = { :git => "https://github.com/liuyunxuan/lyxTool.git", :tag
 s.platform     = :ios, '8.0'
 # s.ios.deployment_target = '8.0'
 s.requires_arc = true
-s.source_files = 'lyxTool' 'ToolModel/*.{h,m}'
+s.source_files = 'lyxTool', 'lyxTool/ToolModel/*.{h,m}'
 s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 end
